@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		771C3C17236A57B600119138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C3C16236A57B600119138 /* AppDelegate.swift */; };
+		771C3C19236A57B600119138 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C3C18236A57B600119138 /* SceneDelegate.swift */; };
+		771C3C1B236A57B600119138 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C3C1A236A57B600119138 /* ViewController.swift */; };
+		771C3C1E236A57B600119138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771C3C1C236A57B600119138 /* Main.storyboard */; };
+		771C3C20236A57B700119138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771C3C1F236A57B700119138 /* Assets.xcassets */; };
+		771C3C23236A57B700119138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771C3C21236A57B700119138 /* LaunchScreen.storyboard */; };
+		771C3C2E236A57B700119138 /* Bluetooth_to_esp_nanoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C3C2D236A57B700119138 /* Bluetooth_to_esp_nanoTests.swift */; };
+		771C3C39236A57B700119138 /* Bluetooth_to_esp_nanoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C3C38236A57B700119138 /* Bluetooth_to_esp_nanoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		771C3C2A236A57B700119138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 771C3C0B236A57B600119138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 771C3C12236A57B600119138;
+			remoteInfo = "Bluetooth to esp-nano";
+		};
+		771C3C35236A57B700119138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 771C3C0B236A57B600119138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 771C3C12236A57B600119138;
+			remoteInfo = "Bluetooth to esp-nano";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		771C3C13236A57B600119138 /* Bluetooth to esp-nano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluetooth to esp-nano.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		771C3C16236A57B600119138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		771C3C18236A57B600119138 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		771C3C1A236A57B600119138 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		771C3C1D236A57B600119138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		771C3C1F236A57B700119138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		771C3C22236A57B700119138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		771C3C24236A57B700119138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		771C3C29236A57B700119138 /* Bluetooth to esp-nanoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth to esp-nanoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		771C3C2D236A57B700119138 /* Bluetooth_to_esp_nanoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_to_esp_nanoTests.swift; sourceTree = "<group>"; };
+		771C3C2F236A57B700119138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		771C3C34236A57B700119138 /* Bluetooth to esp-nanoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth to esp-nanoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		771C3C38236A57B700119138 /* Bluetooth_to_esp_nanoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_to_esp_nanoUITests.swift; sourceTree = "<group>"; };
+		771C3C3A236A57B700119138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		771C3C10236A57B600119138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771C3C26236A57B700119138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771C3C31236A57B700119138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		771C3C0A236A57B600119138 = {
+			isa = PBXGroup;
+			children = (
+				771C3C15236A57B600119138 /* Bluetooth to esp-nano */,
+				771C3C2C236A57B700119138 /* Bluetooth to esp-nanoTests */,
+				771C3C37236A57B700119138 /* Bluetooth to esp-nanoUITests */,
+				771C3C14236A57B600119138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		771C3C14236A57B600119138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				771C3C13236A57B600119138 /* Bluetooth to esp-nano.app */,
+				771C3C29236A57B700119138 /* Bluetooth to esp-nanoTests.xctest */,
+				771C3C34236A57B700119138 /* Bluetooth to esp-nanoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		771C3C15236A57B600119138 /* Bluetooth to esp-nano */ = {
+			isa = PBXGroup;
+			children = (
+				771C3C16236A57B600119138 /* AppDelegate.swift */,
+				771C3C18236A57B600119138 /* SceneDelegate.swift */,
+				771C3C1A236A57B600119138 /* ViewController.swift */,
+				771C3C1C236A57B600119138 /* Main.storyboard */,
+				771C3C1F236A57B700119138 /* Assets.xcassets */,
+				771C3C21236A57B700119138 /* LaunchScreen.storyboard */,
+				771C3C24236A57B700119138 /* Info.plist */,
+			);
+			path = "Bluetooth to esp-nano";
+			sourceTree = "<group>";
+		};
+		771C3C2C236A57B700119138 /* Bluetooth to esp-nanoTests */ = {
+			isa = PBXGroup;
+			children = (
+				771C3C2D236A57B700119138 /* Bluetooth_to_esp_nanoTests.swift */,
+				771C3C2F236A57B700119138 /* Info.plist */,
+			);
+			path = "Bluetooth to esp-nanoTests";
+			sourceTree = "<group>";
+		};
+		771C3C37236A57B700119138 /* Bluetooth to esp-nanoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				771C3C38236A57B700119138 /* Bluetooth_to_esp_nanoUITests.swift */,
+				771C3C3A236A57B700119138 /* Info.plist */,
+			);
+			path = "Bluetooth to esp-nanoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		771C3C12236A57B600119138 /* Bluetooth to esp-nano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 771C3C3D236A57B800119138 /* Build configuration list for PBXNativeTarget "Bluetooth to esp-nano" */;
+			buildPhases = (
+				771C3C0F236A57B600119138 /* Sources */,
+				771C3C10236A57B600119138 /* Frameworks */,
+				771C3C11236A57B600119138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bluetooth to esp-nano";
+			productName = "Bluetooth to esp-nano";
+			productReference = 771C3C13236A57B600119138 /* Bluetooth to esp-nano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		771C3C28236A57B700119138 /* Bluetooth to esp-nanoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 771C3C40236A57B800119138 /* Build configuration list for PBXNativeTarget "Bluetooth to esp-nanoTests" */;
+			buildPhases = (
+				771C3C25236A57B700119138 /* Sources */,
+				771C3C26236A57B700119138 /* Frameworks */,
+				771C3C27236A57B700119138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				771C3C2B236A57B700119138 /* PBXTargetDependency */,
+			);
+			name = "Bluetooth to esp-nanoTests";
+			productName = "Bluetooth to esp-nanoTests";
+			productReference = 771C3C29236A57B700119138 /* Bluetooth to esp-nanoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		771C3C33236A57B700119138 /* Bluetooth to esp-nanoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 771C3C43236A57B800119138 /* Build configuration list for PBXNativeTarget "Bluetooth to esp-nanoUITests" */;
+			buildPhases = (
+				771C3C30236A57B700119138 /* Sources */,
+				771C3C31236A57B700119138 /* Frameworks */,
+				771C3C32236A57B700119138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				771C3C36236A57B700119138 /* PBXTargetDependency */,
+			);
+			name = "Bluetooth to esp-nanoUITests";
+			productName = "Bluetooth to esp-nanoUITests";
+			productReference = 771C3C34236A57B700119138 /* Bluetooth to esp-nanoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		771C3C0B236A57B600119138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Brandon Ong";
+				TargetAttributes = {
+					771C3C12236A57B600119138 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					771C3C28236A57B700119138 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 771C3C12236A57B600119138;
+					};
+					771C3C33236A57B700119138 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 771C3C12236A57B600119138;
+					};
+				};
+			};
+			buildConfigurationList = 771C3C0E236A57B600119138 /* Build configuration list for PBXProject "Bluetooth to esp-nano" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 771C3C0A236A57B600119138;
+			productRefGroup = 771C3C14236A57B600119138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				771C3C12236A57B600119138 /* Bluetooth to esp-nano */,
+				771C3C28236A57B700119138 /* Bluetooth to esp-nanoTests */,
+				771C3C33236A57B700119138 /* Bluetooth to esp-nanoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		771C3C11236A57B600119138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771C3C23236A57B700119138 /* LaunchScreen.storyboard in Resources */,
+				771C3C20236A57B700119138 /* Assets.xcassets in Resources */,
+				771C3C1E236A57B600119138 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771C3C27236A57B700119138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771C3C32236A57B700119138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		771C3C0F236A57B600119138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771C3C1B236A57B600119138 /* ViewController.swift in Sources */,
+				771C3C17236A57B600119138 /* AppDelegate.swift in Sources */,
+				771C3C19236A57B600119138 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771C3C25236A57B700119138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771C3C2E236A57B700119138 /* Bluetooth_to_esp_nanoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771C3C30236A57B700119138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771C3C39236A57B700119138 /* Bluetooth_to_esp_nanoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		771C3C2B236A57B700119138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 771C3C12236A57B600119138 /* Bluetooth to esp-nano */;
+			targetProxy = 771C3C2A236A57B700119138 /* PBXContainerItemProxy */;
+		};
+		771C3C36236A57B700119138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 771C3C12236A57B600119138 /* Bluetooth to esp-nano */;
+			targetProxy = 771C3C35236A57B700119138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		771C3C1C236A57B600119138 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				771C3C1D236A57B600119138 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		771C3C21236A57B700119138 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				771C3C22236A57B700119138 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		771C3C3B236A57B800119138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		771C3C3C236A57B800119138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		771C3C3E236A57B800119138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLDSRY6448;
+				INFOPLIST_FILE = "Bluetooth to esp-nano/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Ong.Bluetooth-to-esp-nano";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		771C3C3F236A57B800119138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLDSRY6448;
+				INFOPLIST_FILE = "Bluetooth to esp-nano/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Ong.Bluetooth-to-esp-nano";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		771C3C41236A57B800119138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLDSRY6448;
+				INFOPLIST_FILE = "Bluetooth to esp-nanoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Ong.Bluetooth-to-esp-nanoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluetooth to esp-nano.app/Bluetooth to esp-nano";
+			};
+			name = Debug;
+		};
+		771C3C42236A57B800119138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLDSRY6448;
+				INFOPLIST_FILE = "Bluetooth to esp-nanoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Ong.Bluetooth-to-esp-nanoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluetooth to esp-nano.app/Bluetooth to esp-nano";
+			};
+			name = Release;
+		};
+		771C3C44236A57B800119138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLDSRY6448;
+				INFOPLIST_FILE = "Bluetooth to esp-nanoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Ong.Bluetooth-to-esp-nanoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bluetooth to esp-nano";
+			};
+			name = Debug;
+		};
+		771C3C45236A57B800119138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLDSRY6448;
+				INFOPLIST_FILE = "Bluetooth to esp-nanoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Ong.Bluetooth-to-esp-nanoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bluetooth to esp-nano";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		771C3C0E236A57B600119138 /* Build configuration list for PBXProject "Bluetooth to esp-nano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771C3C3B236A57B800119138 /* Debug */,
+				771C3C3C236A57B800119138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		771C3C3D236A57B800119138 /* Build configuration list for PBXNativeTarget "Bluetooth to esp-nano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771C3C3E236A57B800119138 /* Debug */,
+				771C3C3F236A57B800119138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		771C3C40236A57B800119138 /* Build configuration list for PBXNativeTarget "Bluetooth to esp-nanoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771C3C41236A57B800119138 /* Debug */,
+				771C3C42236A57B800119138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		771C3C43236A57B800119138 /* Build configuration list for PBXNativeTarget "Bluetooth to esp-nanoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771C3C44236A57B800119138 /* Debug */,
+				771C3C45236A57B800119138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 771C3C0B236A57B600119138 /* Project object */;
+}
