@@ -15,6 +15,7 @@
 		771C3C23236A57B700119138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771C3C21236A57B700119138 /* LaunchScreen.storyboard */; };
 		771C3C2E236A57B700119138 /* Bluetooth_to_esp_nanoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C3C2D236A57B700119138 /* Bluetooth_to_esp_nanoTests.swift */; };
 		771C3C39236A57B700119138 /* Bluetooth_to_esp_nanoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C3C38236A57B700119138 /* Bluetooth_to_esp_nanoUITests.swift */; };
+		771C3C48236F4F8D00119138 /* ParticlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C3C47236F4F8D00119138 /* ParticlePeripheral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		771C3C34236A57B700119138 /* Bluetooth to esp-nanoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth to esp-nanoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		771C3C38236A57B700119138 /* Bluetooth_to_esp_nanoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_to_esp_nanoUITests.swift; sourceTree = "<group>"; };
 		771C3C3A236A57B700119138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		771C3C47236F4F8D00119138 /* ParticlePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlePeripheral.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		771C3C15236A57B600119138 /* Bluetooth to esp-nano */ = {
 			isa = PBXGroup;
 			children = (
+				771C3C46236F4F5E00119138 /* Models */,
 				771C3C16236A57B600119138 /* AppDelegate.swift */,
 				771C3C18236A57B600119138 /* SceneDelegate.swift */,
 				771C3C1A236A57B600119138 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				771C3C3A236A57B700119138 /* Info.plist */,
 			);
 			path = "Bluetooth to esp-nanoUITests";
+			sourceTree = "<group>";
+		};
+		771C3C46236F4F5E00119138 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				771C3C47236F4F8D00119138 /* ParticlePeripheral.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 				771C3C1B236A57B600119138 /* ViewController.swift in Sources */,
 				771C3C17236A57B600119138 /* AppDelegate.swift in Sources */,
 				771C3C19236A57B600119138 /* SceneDelegate.swift in Sources */,
+				771C3C48236F4F8D00119138 /* ParticlePeripheral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JLDSRY6448;
 				INFOPLIST_FILE = "Bluetooth to esp-nano/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JLDSRY6448;
 				INFOPLIST_FILE = "Bluetooth to esp-nano/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
